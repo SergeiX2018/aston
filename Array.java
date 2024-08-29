@@ -20,7 +20,6 @@ public class Array {
                 {"1", "2", "12", "4"},
                 {"5", "6", "7", "8"},
                 {"9", "10", "1", "12" },
-                {"13", "14", "15", "16"},
                 {"13", "14", "15", "16"}
         };
     }
@@ -29,7 +28,7 @@ public class Array {
             throw new MyArraySizeException("Ошибка: массив должен быть размером 4x4.");
         }
         for (int i = 0; i < 4; i++) {
-            if ( array[i].length != 4||array.length != 4) {
+            if ( array[i].length != 4) {
                 throw new MyArraySizeException("Ошибка: массив должен быть размером 4x4.");
             }
         }
