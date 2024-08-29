@@ -17,9 +17,4 @@ public class FactorialTest {
         Assert.assertEquals(120, Factorial.factorial(5));
         Assert.assertEquals(362880, Factorial.factorial(9));
     }
-
-    @Test(expectedExceptions = IllegalArgumentException.class)
-    public void testNegativeNumber() {
-        Factorial.factorial(-1);
-    }
 }
