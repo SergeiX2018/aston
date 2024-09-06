@@ -1,5 +1,6 @@
 package com.mts.onlineReplenishment;
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -11,7 +12,7 @@ public class Form {
     private WebDriverWait wait;
     public Form(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
     }
     public void enterNumber(String number) {
         WebElement numberField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("connection-phone")));
@@ -29,4 +30,15 @@ public class Form {
         WebElement submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".button.button__default")));
         submitButton.click();
     }
+    public String checkDisplayedText() {
+        try {
+            WebElement displayedElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='pay-description__text'] span")));
+            return displayedElement.getText();
+        } catch (TimeoutException e) {
+            System.out.println("Элемент не найден: " + e.getMessage());
+            return "";
+        }
+    }
+
+
 }

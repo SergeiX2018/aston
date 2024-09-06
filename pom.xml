@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>  <!-- Уникальный идентификатор вашей организации или проекта -->
-    <artifactId>factorial-project</artifactId>  <!-- Название артефакта -->
-    <version>1.0-SNAPSHOT</version>  <!-- Версия проекта -->
+    <groupId>com.example</groupId>
+    <artifactId>factorial-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.24.0</version> <!-- Проверь последнюю версию на сайте Selenium -->
+            <version>4.24.0</version>
         </dependency>
 
     </dependencies>
