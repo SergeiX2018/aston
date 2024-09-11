@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T21:57:31 MSK" name="Surefire suite" finished-at="2024-09-11T21:58:53 MSK" duration-ms="82048">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T21:57:31 MSK" name="Surefire test" finished-at="2024-09-11T21:58:53 MSK" duration-ms="82048">
+      <class name="com.mts.onlineReplenishment.PlaceholderCommunicationServicesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderCommunicationServicesTest@6c0d7c83]" started-at="2024-09-11T21:58:22 MSK" name="setup" finished-at="2024-09-11T21:58:29 MSK" duration-ms="7371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAllPlaceholders()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderCommunicationServicesTest@6c0d7c83]" started-at="2024-09-11T21:58:29 MSK" name="testAllPlaceholders" description="Проверка всех плейсхолдеров на странице связи с абонентами" finished-at="2024-09-11T21:58:29 MSK" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderCommunicationServicesTest@6c0d7c83]" started-at="2024-09-11T21:58:29 MSK" name="tearDown" finished-at="2024-09-11T21:58:30 MSK" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mts.onlineReplenishment.PlaceholderCommunicationServicesTest -->
+      <class name="com.mts.onlineReplenishment.FormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mts.onlineReplenishment.FormTest@14f9390f]" started-at="2024-09-11T21:57:31 MSK" name="setup" finished-at="2024-09-11T21:57:37 MSK" duration-ms="5932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFullTextDisplay()[pri:0, instance:com.mts.onlineReplenishment.FormTest@14f9390f]" started-at="2024-09-11T21:57:37 MSK" name="testFullTextDisplay" description="Проверка отображения всех текстов и плейсхолдеров на странице формы" finished-at="2024-09-11T21:58:22 MSK" duration-ms="44528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullTextDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mts.onlineReplenishment.FormTest@14f9390f]" started-at="2024-09-11T21:58:22 MSK" name="tearDown" finished-at="2024-09-11T21:58:22 MSK" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mts.onlineReplenishment.FormTest -->
+      <class name="com.mts.onlineReplenishment.PlaceholderInstalmentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderInstalmentTest@409c54f]" started-at="2024-09-11T21:58:43 MSK" name="setup" finished-at="2024-09-11T21:58:53 MSK" duration-ms="10346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAllPlaceholders()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderInstalmentTest@409c54f]" started-at="2024-09-11T21:58:53 MSK" name="testAllPlaceholders" description="Проверка всех плейсхолдеров на странице рассрочки" finished-at="2024-09-11T21:58:53 MSK" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderInstalmentTest@409c54f]" started-at="2024-09-11T21:58:53 MSK" name="tearDown" finished-at="2024-09-11T21:58:53 MSK" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mts.onlineReplenishment.PlaceholderInstalmentTest -->
+      <class name="com.mts.onlineReplenishment.PlaceholderHomeInternetTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderHomeInternetTest@5965be2d]" started-at="2024-09-11T21:58:36 MSK" name="setup" finished-at="2024-09-11T21:58:42 MSK" duration-ms="5926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAllPlaceholders()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderHomeInternetTest@5965be2d]" started-at="2024-09-11T21:58:42 MSK" name="testAllPlaceholders" description="Проверка всех плейсхолдеров на странице интернет-пополнения" finished-at="2024-09-11T21:58:42 MSK" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPlaceholders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderHomeInternetTest@5965be2d]" started-at="2024-09-11T21:58:42 MSK" name="tearDown" finished-at="2024-09-11T21:58:43 MSK" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mts.onlineReplenishment.PlaceholderHomeInternetTest -->
+      <class name="com.mts.onlineReplenishment.PlaceholderDeptTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderDeptTest@176b75f7]" started-at="2024-09-11T21:58:30 MSK" name="setup" finished-at="2024-09-11T21:58:36 MSK" duration-ms="6715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPlaceholderDept()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderDeptTest@176b75f7]" started-at="2024-09-11T21:58:36 MSK" name="testPlaceholderDept" description="Проверка всех плейсхолдеров на странице погашения задолженности" finished-at="2024-09-11T21:58:36 MSK" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceholderDept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mts.onlineReplenishment.PlaceholderDeptTest@176b75f7]" started-at="2024-09-11T21:58:36 MSK" name="tearDown" finished-at="2024-09-11T21:58:36 MSK" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mts.onlineReplenishment.PlaceholderDeptTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
